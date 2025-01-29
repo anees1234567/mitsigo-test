@@ -40,7 +40,7 @@ const Features = () => {
   
     return (
       <div className="flex flex-col items-center bg-white p-6">
-            <div className="text-center font-sans">
+            <div className="text-center">
                 <p className="font-normal text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl leading-tight">
                     Powerful endpoint management, built for
                 </p>
@@ -61,10 +61,10 @@ const Features = () => {
                 alt={feature.title}
                 className=" rounded-t-2xl shadow-xs"
               />
-              <h3 className="mt-4 text-3xl font-semibold text-gray-800 font-sans">
+              <h3 className="mt-4 text-3xl font-semibold text-gray-800 ">
                 {feature.title}
               </h3>
-              <p className="mt-2 text-gray-600 text-center text-2xl font-sans">
+              <p className="mt-2 text-gray-600 text-center text-2xl ">
                 {feature.description}
               </p>
             </div>

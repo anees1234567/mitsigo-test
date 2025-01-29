@@ -3,13 +3,13 @@ const Footer = () => {
       <>
         {/* Main Footer Section */}
         <div className="h-auto md:h-[320px] flex flex-col justify-center items-center gap-3 px-4 py-6 bg-gray-800">
-          <span className="text-2xl md:text-4xl lg:text-5xl text-white font-sans font-bold text-center">
+          <span className="text-2xl md:text-4xl lg:text-5xl text-white  font-bold text-center">
             Get Hexnode UEM and start securing
           </span>
-          <span className="text-2xl md:text-4xl lg:text-5xl text-white font-sans font-bold text-center">
+          <span className="text-2xl md:text-4xl lg:text-5xl text-white  font-bold text-center">
             Your Endpoints
           </span>
-          <button className="bg-red-500 w-full max-w-xs md:w-[18rem] h-12 md:h-16 mt-5 text-white text-lg md:text-2xl font-sans font-medium shadow-2xl rounded-2xl hover:bg-red-600 transition duration-300">
+          <button className="bg-red-500 w-full max-w-xs md:w-[18rem] h-12 md:h-16 mt-5 text-white text-lg md:text-2xl  font-medium shadow-2xl rounded-2xl hover:bg-red-600 transition duration-300">
             Try Hexnode For Free
           </button>
         </div>

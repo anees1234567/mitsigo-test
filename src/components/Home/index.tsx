@@ -7,7 +7,7 @@ const Home = () => {
             The Standard for Unified <br />
             Endpoint Management
           </span>
-          <span className="text-lg sm:text-xl md:text-2xl text-gray-300 font-sans mt-4">
+          <span className="text-lg sm:text-xl md:text-2xl text-gray-300  mt-4">
             Manage devices of varying form factors and operating systems
             <br />
             with one solution

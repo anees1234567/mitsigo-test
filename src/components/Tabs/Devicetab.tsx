@@ -52,10 +52,10 @@ const TabInterface = () => {
     <div className="bg-[#f7f7f7]  pb-20">
    
       <div className="px-4 py-8 text-center">
-        <h1 className="text-3xl md:text-5xl font-sans font-bold">
+        <h1 className="text-3xl md:text-5xl font-bold">
           Multi-platform Endpoint Management
         </h1>
-        <p className="text-lg md:text-2xl font-sans mt-4">
+        <p className="text-lg md:text-2xl mt-4">
           Devices of varying platforms? Hexnode thrives in a diverse environment.
         </p>
       </div>
@@ -82,7 +82,7 @@ const TabInterface = () => {
               onClick={() => setActiveTab(activeTab === index ? null : index)}
             >
 
-              <h3 className="text-2xl md:text-3xl font-sans font-semibold">
+              <h3 className="text-2xl md:text-3xl font-semibold">
                 {tab.name}
               </h3>
 

@@ -1,6 +1,9 @@
 import { Close, Menu } from "@mui/icons-material";
 import { IconButton } from "@mui/material";
 import { useEffect, useState } from "react";
+import logo from "../../assets/Logo.png"
+import logo1 from "../../assets/Logo1.png"
+
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -37,7 +40,10 @@ const Header = () => {
     <div className={`h-[12vh] w-[100vw] grid grid-cols-12 sticky top-0 z-50 ${bgColor}`}>
       <div className="col-span-12 grid grid-cols-12 relative">
         <div className="col-span-3 sm:col-span-3 lg:col-span-2 flex justify-end items-center">
-          <span className="font-bold lg:text-4xl font-sans cursor-pointer" onClick={() => handleScroll("home")}>hexnode</span>
+          <span className="font-bold lg:text-4xl  cursor-pointer" onClick={() => handleScroll("home")}>
+          <img width={140} height={100} src={window.scrollY >0 ?logo1 :logo}  alt="Logo" />
+          
+          </span>
         </div>
         <div className="col-span-7 lg:hidden"></div>
         <div className="col-span-2 flex justify-center items-center lg:hidden">
@@ -65,15 +71,15 @@ const Header = () => {
                 </IconButton>
               </div>
               <hr className="text-gray-400" />
-              <div className="p-2 h-12 font-sans font-thin">
+              <div className="p-2 h-12  font-thin">
                 <span onClick={() => { handleScroll("features"); handleClose(); }} className="cursor-pointer">Features</span>
               </div>
               <hr className="text-gray-200" />
-              <div className="p-2 h-12 font-sans font-thin">
+              <div className="p-2 h-12  font-thin">
                 <span onClick={() => { handleScroll("devices"); handleClose(); }} className="cursor-pointer">Platform</span>
               </div>
               <hr className="text-gray-200" />
-              <div className="p-2 h-12 font-sans font-thin">
+              <div className="p-2 h-12  font-thin">
                 <span onClick={() => { handleScroll("testimonials"); handleClose(); }} className="cursor-pointer">Customers</span>
               </div>
               <hr className="text-gray-200" />
