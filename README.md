@@ -7,4 +7,5 @@ packages used
 mui package -- for using icons and icons buttons 
 tailwind css -- mainly used for styling
 font -- poppins
+animations -- used animate.css for simple animations
 
